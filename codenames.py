@@ -214,26 +214,5 @@ class Game(): #Codenames top-level class
             
         
         
-game=Game(players=players,seed=3)
-#print(game)
-game.play()
-#game.guess('OLYMPUS')
-#game.guess('BILL')
-#game.nextRound()
-#game.emailGroup()
-#send_email(to='simon.purkess+player1@gmail.com',subject='Another Test',body=game.createHTMLBody(False))
-
-#Test email with HTML formatting
-html="""
-<html>
-<body>
-<p style= "font-family: Courier New, Courier, monospace;">
-<pre>
-<font color="chocolate">SHARK     <font color="red">BANK      <font color="red">HIMALAYAS <font color="chocolate">ROUND     <font color="blue">TAP<br><font color="chocolate">FALL      <font color="blue">CHOCOLATE <font color="black">ICE CREAM <font color="red">FORCE     <font color="blue">LIMOUSINE<br><font color="chocolate">STRAW     <font color="red">HORSESHOE <font color="red">BUCK      <font color="blue">WITCH     <font color="blue">GERMANY<br><font color="chocolate">COMIC     <font color="red">CIRCLE    <font color="chocolate">PUPIL     <font color="blue">CODE      <font color="red">NOVEL<br><font color="red">RABBIT    <font color="red">BAND      <font color="blue">MEXICO    <font color="blue">IRON      <font color="chocolate">CONCERT<br>
-</pre>
-</p>
-</body>
-</html>
-"""
-
-#send_email(to='simon.purkess+player1@gmail.com',subject='Color Test',body=html)
+game=Game(players=players,seed=104)
+#game.play()
